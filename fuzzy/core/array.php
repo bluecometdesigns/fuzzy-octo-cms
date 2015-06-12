@@ -44,6 +44,7 @@ function array_set (array &$array, $key, $value) {
 /**
 * Remove an element from array
 * 
+* @param array $array
 * @param key
 * @author Thaddeus
 */
