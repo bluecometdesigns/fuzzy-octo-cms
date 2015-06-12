@@ -40,3 +40,13 @@ function array_get (array $array, $key, $default = false) {
 function array_set (array &$array, $key, $value) {
     $array[$key] = $value;
 }
+
+/**
+* Remove an element from array
+* 
+* @param key
+* @author Thaddeus
+*/
+function array_del (array &$array, $key) {
+    unset($array[$key]);
+}
